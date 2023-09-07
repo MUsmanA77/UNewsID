@@ -15,7 +15,22 @@ class MainActivity : AppCompatActivity(),ClickListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        populateNews()
+        val nameArray = resources.getStringArray(R.array.data_name)
+        val descriptionArray = resources.getStringArray(R.array.data_description)
+        val photoArray = resources.obtainTypedArray(R.array.data_photo)
+
+        for (i in nameArray.indices) {
+            val news = News(
+                photoArray.getResourceId(i, 0),
+                nameArray[i],
+                descriptionArray[i]
+            )
+            newsList.add(news)
+        }
+
+
+        photoArray.recycle()
+
 
         val mainActivity = this
         binding.recyclerView.apply {
@@ -39,87 +54,7 @@ class MainActivity : AppCompatActivity(),ClickListener {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun populateNews() {
-        val news1= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan1",
-            "deskripsi: test text yang sangat panjang sampai harusnya tidak terlihat didepan halaman dan hanya bisa dilihat keseluruhan text nya jika buka detailnya. text ini seharusnya sudah cukup panjang untuk tidak bisa dilihat dari depan saja dan harus memencet detail untuk melihatnya."
-        )
-        newsList.add(news1)
 
-        val news2= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan2",
-            "deskripsi: test text yang sangat panjang sampai harusnya tidak terlihat didepan halaman dan hanya bisa dilihat keseluruhan text nya jika buka detailnya. text ini seharusnya sudah cukup panjang untuk tidak bisa dilihat dari depan saja dan harus memencet detail untuk melihatnya." +
-                    "\na" + "\nb" + "\nc" + "\nd" + "\ne" + "\nf" + "\ng" + "\nh" +
-                    "\ni" + "\nj" + "\nk" + "\nl" + "\nm" + "\nn" + "\no" + "\np" +
-                    "\nq" + "\nr" + "\ns" + "\nt" + "\nu" + "\nv" + "\nw" + "\nx" +
-                    "\ny" + "\nz"+
-                    "\na" + "\nb" + "\nc" + "\nd" + "\ne" + "\nf" + "\ng" + "\nh" +
-                    "\ni" + "\nj" + "\nk" + "\nl" + "\nm" + "\nn" + "\no" + "\np" +
-                    "\nq" + "\nr" + "\ns" + "\nt" + "\nu" + "\nv" + "\nw" + "\nx" +
-                    "\ny" + "\nz"
-        )
-        newsList.add(news2)
-
-        val news3= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan3",
-            "deskripsi3cek"
-        )
-        newsList.add(news3)
-
-        val news4= News(
-            R.drawable.ahmad_yani,
-            "ahmad_yani",
-            "deskripsi"
-        )
-        newsList.add(news4)
-
-        val news5= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_yani",
-            "deskripsi"
-        )
-        newsList.add(news5)
-
-        val news6= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan",
-            "deskripsi"
-        )
-        newsList.add(news6)
-
-        val news7= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan",
-            "deskripsi"
-        )
-        newsList.add(news7)
-
-        val news8= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan",
-            "deskripsi"
-        )
-        newsList.add(news8)
-
-        val news9= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan",
-            "deskripsi"
-        )
-        newsList.add(news9)
-
-        val news10= News(
-            R.drawable.ahmad_dahlan,
-            "ahmad_dahlan",
-            "deskripsi"
-        )
-        newsList.add(news10)
-
-
-    }
 
     override fun onClick(news: News) {
         val intent = Intent(applicationContext, DetailActivity::class.java)
