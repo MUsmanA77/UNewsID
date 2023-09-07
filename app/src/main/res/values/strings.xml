@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UnewsID</string>
+    <string name="place_holder_name">place holder name</string>
+    <string name="place_holder_description">place holder description</string>
+    <string name="photo_news">photo news</string>
+    <string name="nama_placeholder">nama placeholder</string>
+    <string name="deskripsi_placeholder">deskripsi placeholder</string>
+    <string name="about">About</string>
+    <string name="mohammad_usman_asegaf">Mohammad Usman Asegaf</string>
+    <string name="usmanasegaf7_gmail_com">usmanasegaf7@gmail.com</string>
+</resources>
