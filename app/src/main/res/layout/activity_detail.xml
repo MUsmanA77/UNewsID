@@ -12,37 +12,44 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/photo"
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:src="@drawable/supomo"
-        android:adjustViewBounds="true"
-        android:layout_gravity="center"
-        android:contentDescription="@string/photo_news"
-        />
-    <TextView
-        android:id="@+id/nama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/nama_placeholder"
-        android:layout_marginBottom="10dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginTop="7dp" />
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/open"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/photo_news"
+            />
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nama_placeholder"
+            android:layout_marginBottom="10dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp" />
 
-    <TextView
-        android:id="@+id/deskripsi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="14dp"
-        android:layout_marginLeft="14dp"
-        android:text="@string/deskripsi_placeholder"
-        android:justificationMode="inter_word"
-        android:textSize="15sp"
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:text="@string/deskripsi_placeholder"
+            android:justificationMode="inter_word"
+            android:textSize="17sp"
 
-        />
+            />
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
     </LinearLayout>
 
 

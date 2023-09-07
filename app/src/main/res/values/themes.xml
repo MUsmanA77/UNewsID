@@ -3,6 +3,7 @@
     <style name="Base.Theme.UnewsID" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#ff5c67</item>
     </style>
 
     <style name="Theme.UnewsID" parent="Base.Theme.UnewsID" />

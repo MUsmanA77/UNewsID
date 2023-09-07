@@ -10,41 +10,61 @@
     <string name="usmanasegaf7_gmail_com">usmanasegaf7@gmail.com</string>
 
     <string-array name="data_name">
-        <item>Ahmad Dahlan</item>
-        <item>Ahmad Yani</item>
-        <item>Sutomo</item>
-        <item>Gatot Soebroto</item>
-        <item>Ki Hadjar Dewantara</item>
-        <item>Mohammad Hatta</item>
-        <item>Soedirman</item>
-        <item>Soekarno</item>
-        <item>Soepomo</item>
-        <item>Soepomo2</item>
+        <item>Conferences successfully move to the virtual world</item>
+        <item>Open source drone makes it to Mars, System76 unveils its new keyboard, and more</item>
+        <item>Advances in open source CAD software, new open source project aims to bring Linux to Apple, and more</item>
+        <item>Kubernetes predictions for 2021, scientists are joining GitHub, and more industry trends</item>
+        <item>Linux Foundation launches open source agriculture infrastructure project</item>
+        <item>Linux Foundation announces new open source software signing service</item>
+        <item>How open source software shapes AI policy</item>
+        <item>Open source leader David Recordon named White House Technology Director</item>
+        <item>12,000 open source contributors help a helicopter fly on Mars</item>
+        <item>Stanford unveils open source sustainable cities software</item>
     </string-array>
 
     <string-array name="data_description">
-        <item>description filler1 test</item>
-        <item>description filler2 after github test</item>
-        <item>description filler3</item>
-        <item>description filler4</item>
-        <item>description filler5 test</item>
-        <item>description filler6</item>
-        <item>description filler7</item>
-        <item>description filler8</item>
-        <item>description filler9</item>
-        <item>description filler10 test</item>
+        <item>When COVID-19 was declared a pandemic in March, in-person conferences and events around the world came to a halt. Although many were canceled or postponed, others moved to virtual formats with massive early success, reports Correspondent Alan Formy-Duval in his May news roundup. More than 80,000 people attended Red Hat Summit 2020 online in April, and GitHub Satellite saw 40,000 tune in from 178 countries. These were some of the biggest virtual conferences anywhere in 2020.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>In this edition of our open source news roundup, learn about open source on Mars, System76s new keyboard, a 5G open source stack, and more. When NASAs latest Mars rover hit the Red Planet in February, it was partially powered by open source software. A small drone helicopter named Ingenuity is inside the rover. Unlike NASAs rover mission, Ingenuitys goal isnt to find signs of life or collect samples for future missions. Its value lies in showing whats possible with commercial off-the-shelf hardware and open source software.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>In this edition of our open source news roundup, learn about open source on Mars, System76s new keyboard, a 5G open source stack, and more.Open source goes to Mars When NASAs latest Mars rover hit the Red Planet in February, it was partially powered by open source software. A small drone helicopter named Ingenuity is inside the rover. Given its distance from Earth, no one will fly Ingenuity manually. Instead, it was built to fly itself using Linux and NASAs open source F´ framework. Unlike NASAs rover mission, Ingenuitys goal isnt to find signs of life or collect samples for future missions. As engineer Timothy Canham shared with ZDNet, its value lies in showing whats possible with commercial off-the-shelf hardware and open source software.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>5 Kubernetes predictions for 2021. Enterprises can either spend their time and efforts on choosing, integrating, and testing an environment to build their platform, or they can find a partner that delivers a platform that offers simplicity of use with the flexibility to leverage any projects and services to meet business requirements. A lot of these predictions could be summarized as "Kubernetes will be less and less the main show as what it enables comes to the forefront."
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>A wave of new artificial intelligence (AI) and Internet of Things (IoT)-connected tools has reached the agricultural space. The Linux Foundation announced a new project, called AgStack Foundation, to boost open source infrastructure across global agriculture. AgStack Foundation has a growing toolkit for achieving its mission.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>Without standardization, securing the software supply chain will be almost impossible. Its sigstore backers hope that they can fix these issues. Sigstore represents a great opportunity to bring more confidence and transparency to the open-source software supply chain. One of the core promises of open source is that "with enough eyes, all bugs are shallow," which is a claim that has been made for the security of the software as well.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>Open source software (OSS) powers the most widely used tools in machine learning. It gives data scientists with less experience implementing algorithms the chance to work faster by making complex math problems easier to use. Policymakers can expand open source software’s reach and use it to help craft more thoughtful policies.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>When President Joe Biden announced appointments to his administration, open source enthusiasts saw a familiar name. David Recordon, who has worked in open source as a developer and manager for nearly 20 years, joins the administration as the White House Director of Technology. Recordon is a familiar face in the White House. His agenda under Biden is expected to prioritize next-gen technologies like facial recognition and predictive analytics.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>Linux had a big moment on April 19: The open source operating system powered Ingenuity, a NASA helicopter that was the first powered aircraft to fly on Mars. Nearly 12,000 developers contributed to Ingenuitys software. GitHub wants to honor every developer who might not know their code helped push this project forward. Theyre also honoring non-code contributors, a practice thats still sadly rare in open source.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
+        <item>80% of Americans live in cities, and 70% of the worlds population is expected to be urban dwellers by 2050. Thanks to the Stanford National Capital Project, city planners and developers have a new open source tool to help improve urban wellbeing. Urban InVEST is new software that helps users visualize where they might create areas to absorb carbon emissions and encourage public use, such as marshlands and parks. Such investments will become more crucial as climate change increases and larger swaths of people move to tighter spaces.
+I hereby declare that the materials provided herein are intended solely for the purpose of practice and educational use.</item>
+
     </string-array>
 
     <integer-array name="data_photo">
-        <item>@drawable/ahmad_dahlan</item>
-        <item>@drawable/ahmad_yani</item>
-        <item>@drawable/bung_tomo</item>
-        <item>@drawable/gatot_subroto</item>
-        <item>@drawable/ki_hadjar_dewantara</item>
-        <item>@drawable/mohammad_hatta</item>
-        <item>@drawable/sudirman</item>
-        <item>@drawable/sukarno</item>
-        <item>@drawable/supomo</item>
-        <item>@drawable/supomo2</item>
+        <item>@drawable/conferences</item>
+        <item>@drawable/dronemars</item>
+        <item>@drawable/freecad</item>
+        <item>@drawable/kubernates</item>
+        <item>@drawable/linux_foundation</item>
+        <item>@drawable/linuxopen</item>
+        <item>@drawable/open</item>
+        <item>@drawable/opensourceleader</item>
+        <item>@drawable/opensourcemars</item>
+        <item>@drawable/stanfor_unveils</item>
     </integer-array>
 </resources>

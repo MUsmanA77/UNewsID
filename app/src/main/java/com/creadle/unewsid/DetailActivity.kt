@@ -21,4 +21,5 @@ class DetailActivity : AppCompatActivity() {
             binding.deskripsi.text = news.description
         }
     }
+
 }
