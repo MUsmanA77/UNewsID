@@ -8,8 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.creadle.unewsid.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(),ClickListener {
+class MainActivity : AppCompatActivity(), ClickListener {
     private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -18,6 +19,8 @@ class MainActivity : AppCompatActivity(),ClickListener {
         val nameArray = resources.getStringArray(R.array.data_name)
         val descriptionArray = resources.getStringArray(R.array.data_description)
         val photoArray = resources.obtainTypedArray(R.array.data_photo)
+
+        val newsList = mutableListOf<News>() // Inisialisasi newsList lokal
 
         for (i in nameArray.indices) {
             val news = News(
@@ -28,13 +31,11 @@ class MainActivity : AppCompatActivity(),ClickListener {
             newsList.add(news)
         }
 
-
         photoArray.recycle()
-
 
         val mainActivity = this
         binding.recyclerView.apply {
-            layoutManager = GridLayoutManager(applicationContext,1)
+            layoutManager = GridLayoutManager(applicationContext, 1)
             adapter = CardAdapter(newsList, mainActivity)
         }
     }
@@ -54,11 +55,10 @@ class MainActivity : AppCompatActivity(),ClickListener {
         return super.onOptionsItemSelected(item)
     }
 
-
-
     override fun onClick(news: News) {
         val intent = Intent(applicationContext, DetailActivity::class.java)
-        intent.putExtra(NEWS_EXTRA, news.id)
+        // Kirim objek News sebagai Parcelable ke DetailActivity
+        intent.putExtra("news", news)
         startActivity(intent)
     }
 }

@@ -23,16 +23,16 @@
     </string-array>
 
     <string-array name="data_description">
-        <item>description filler1</item>
-        <item>description filler2</item>
+        <item>description filler1 test</item>
+        <item>description filler2 after github test</item>
         <item>description filler3</item>
         <item>description filler4</item>
-        <item>description filler5</item>
+        <item>description filler5 test</item>
         <item>description filler6</item>
         <item>description filler7</item>
         <item>description filler8</item>
         <item>description filler9</item>
-        <item>description filler10</item>
+        <item>description filler10 test</item>
     </string-array>
 
     <integer-array name="data_photo">
